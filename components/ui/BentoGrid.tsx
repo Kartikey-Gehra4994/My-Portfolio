@@ -148,8 +148,8 @@ export const BentoGridItem = ({
                             <div className="mt-5 relative z-40 pointer-events-auto">
                                 {copied && (
                                         <div className="flex justify-center ">
-                                    <div className="absolute top-[-15px]">
-                                        <ConfettiLottie copied={copied} />
+                                    <div className="absolute top-[-200px] w-full">
+                                        <ConfettiLottie copied={copied}/>
                                         </div>
                                     </div>
                                 )}
