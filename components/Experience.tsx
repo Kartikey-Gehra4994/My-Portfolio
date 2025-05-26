@@ -1,5 +1,4 @@
 import { workExperience } from '@/data'
-import { button } from 'framer-motion/client'
 import React from 'react'
 import { Button } from './ui/MovingBorders'
 
