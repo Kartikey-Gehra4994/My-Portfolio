@@ -15,7 +15,7 @@ export const InfiniteMovingCards = ({
         quote: string;
         name: string;
         title: string;
-        img: String;
+        img: string;
         link: string;
     }[];
     direction?: "left" | "right";
