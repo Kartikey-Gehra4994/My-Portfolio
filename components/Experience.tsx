@@ -6,8 +6,8 @@ const Experience = () => {
     return (
         <div className='py-20' id='testimonials' >
             <h1 className='heading lg:text-6xl'>
-                My
-                <span className='text-purple-300'> work experience</span>
+                🧠 Tech 
+                <span className='text-purple-300'> Stack Journey Timeline</span>
             </h1>
             <div className='w-full mt-20 grid lg:grid-cols-4 grid-cols-1 gap-10'>
                 {workExperience.map((card) => (
@@ -18,10 +18,10 @@ const Experience = () => {
                         className='flex-1 text-white border-neutral-200 dark:border-slate-800'
                     >
                         <div className='flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2'>
-                            <img src={card.thumbnail} alt={card.thumbnail} className='lg:w-20 w-16' />
+                            <img src={card.thumbnail} alt={card.thumbnail} className='lg:w-20 w-16 rounded-full' />
                             <div className='lg:ms-5'>
                                 <h1 className='text-start text-xl md:text-2xl font-bold'>
-                                    {card.title}
+                                    {card.title} <span className='text-purple-300'>{card.date}</span>
                                 </h1>
                                 <p className='text-start text-white mt-3 font-semibold'>
                                     {card.desc}

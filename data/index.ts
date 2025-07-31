@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "I prioritize client collaboration, fostering open communication",
+        title: "I value teamwork and open learning with peers",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
@@ -68,83 +68,25 @@ export const gridItems = [
     }
 ];
 
-
-
-// export const gridItems = [
-//     {
-//         id: 1,
-//         title: "I prioritize client collaboration, fostering open communication ",
-//         description: "",
-//         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[100vh]",
-//         imgClassName: "w-full h-full",
-//         titleClassName: "justify-end",
-//         img: "/b1.svg",
-//         spareImg: "",
-//     },
-//     {
-//         id: 2,
-//         title: "I'm very flexible with time zone communications",
-//         description: "",
-//         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-//         imgClassName: "",
-//         titleClassName: "justify-start",
-//         img: "",
-//         spareImg: "",
-//     },
-//     {
-//         id: 3,
-//         title: "My tech stack",
-//         description: "I constantly try to improve",
-//         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-//         imgClassName: "",
-//         titleClassName: "justify-center",
-//         img: "",
-//         spareImg: "",
-//     },
-//     {
-//         id: 4,
-//         title: "Tech enthusiast with a passion for development.",
-//         description: "",
-//         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-//         imgClassName: "",
-//         titleClassName: "justify-start",
-//         img: "/grid.svg",
-//         spareImg: "/b4.svg",
-//     },
-
-//     {
-//         id: 5,
-//         title: "Currently building a JS Animation library",
-//         description: "The Inside Scoop",
-//         className: "md:col-span-3 md:row-span-2",
-//         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-//         titleClassName: "justify-center md:justify-start lg:justify-center",
-//         img: "/b5.svg",
-//         spareImg: "/grid.svg",
-//     },
-//     {
-//         id: 6,
-//         title: "Do you want to start a project together?",
-//         description: "",
-//         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-//         imgClassName: "",
-//         titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-//         img: "",
-//         spareImg: "",
-//     },
-// ];
-
 export const projects = [
     {
         id: 1,
-        title: "3D Solar System Planets to Explore",
-        des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-        img: "/p1.svg",
+        title: "The Ultimate Gaming Arena",
+        des: "The Ultimate Gaming Arena — Enter Zentry and level up your play. Compete, connect, and conquer in a next-gen gaming experience.",
+        img: "/p1.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://github.com/adrianhajdin?tab=repositories",
+        link: "https://github.com/Kartikey-Gehra4994/Welcome-to-Zentry",
     },
     {
         id: 2,
+        title: "Ride Smarter with Our Uber Clone – Seamless, Scalable, and Real-Time.",
+        des: "Our Uber Clone is a cutting-edge solution for on-demand transportation, offering real-time tracking, secure payments, and a user-friendly interface.",
+        img: "https://i.pinimg.com/736x/57/20/0b/57200bbebeb5d9b16b938d06f993d034.jpg",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+        link: "https://github.com/Kartikey-Gehra4994/MY-Uber-clone",
+    },
+    {
+        id: 3,
         title: "Get Me A Chai - Fund your projects with chai",
         des: "Get Me A Chai is a fun, lightweight platform that lets creators receive support for their projects through small contributions—just like buying them a chai!",
         img: "/p2.png",
@@ -152,20 +94,12 @@ export const projects = [
         link: "https://github.com/Kartikey-Gehra4994/GetMeAChai",
     },
     {
-        id: 3,
+        id: 4,
         title: "Hotel Booking – Find and Book Your Perfect Stay Instantly",
         des: "Hotel Booking is a fast and easy-to-use platform to find, compare, and book hotels at the best prices—anytime, anywhere.",
         img: "/p3.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
         link: "https://github.com/Kartikey-Gehra4994/Hotel-Booking",
-    },
-    {
-        id: 4,
-        title: "Animated Apple Iphone 3D Website",
-        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-        img: "/p4.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://github.com/adrianhajdin/iphone",
     },
 ];
 
@@ -215,64 +149,65 @@ export const testimonials = [
 export const companies = [
     {
         id: 1,
-        name: "cloudinary",
-        img: "/cloud.svg",
-        nameImg: "/cloudName.svg",
+        name: "React",
+        img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
     },
     {
         id: 2,
-        name: "appwrite",
-        img: "/app.svg",
-        nameImg: "/appName.svg",
+        name: "Github",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa8FV8SCzjlNqk2yzFPetRZbY7j258d8-MuA&s",
+
     },
     {
         id: 3,
-        name: "HOSTINGER",
-        img: "/host.svg",
-        nameImg: "/hostName.svg",
+        name: "Postman",
+        img: "https://cdn.iconscout.com/icon/free/png-256/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945092.png",
+
     },
     {
         id: 4,
-        name: "stream",
-        img: "/s.svg",
-        nameImg: "/streamName.svg",
+        name: "Vercel",
+        img: "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/vercel.png",
     },
     {
         id: 5,
-        name: "docker.",
-        img: "/dock.svg",
-        nameImg: "/dockerName.svg",
+        name: "Soclet.io",
+        img: "https://pbs.twimg.com/profile_images/470682672235151360/vI0ZZlhZ_400x400.png",
     },
 ];
 
 export const workExperience = [
     {
         id: 1,
-        title: "Frontend Engineer Intern",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-        className: "md:col-span-2",
-        thumbnail: "/exp1.svg",
+        date: "August 2024",
+        title: "HTML, CSS, JavaScript",
+        desc: "Started learning basics of web development and created first landing page.",
+        className: "md:col-span-2 ",
+        thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZULgn7jR5IH6sCNm5PjEnH1xTaSLFJLmx8w&s",
     },
     {
         id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-        className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp2.svg",
+        date: "November 2024",
+        title: "React, Tailwind CSS",
+        desc: "Built multiple frontend projects using component-based UI design.",
+        className: "md:col-span-2 ", // change to md:col-span-2
+        thumbnail: "https://wfyzfzphbsckdlrrtbar.supabase.co/storage/v1/object/public/media/WebPimages/AppIcons/react_tailwind.webp?t=2024-09-12T02%3A08%3A31.801Z",
     },
     {
         id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+        date: "February 2025",
+        title: "MERN Stack",
+        desc: "Completed full-stack projects including Uber Clone with backend integration.",
         className: "md:col-span-2", // change to md:col-span-2
-        thumbnail: "/exp3.svg",
+        thumbnail: "https://pentagonspace.in/assets/images/course_logo/merni.png",
     },
     {
         id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        date: "June 2025",
+        title: "Razorpay, Deployment",
+        desc: "Integrated payment gateways and deployed apps using Vercel and Netlify.",
         className: "md:col-span-2",
-        thumbnail: "/exp4.svg",
+        thumbnail: "https://media.tradly.app/images/marketplace/34521/razor_pay_icon-ICtywSbN.png",
     },
 ];
 

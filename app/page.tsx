@@ -19,8 +19,8 @@ export default function Home() {
         <RecentProjects />
         <Clients />
         <Experience />
-        <Approach/>
-        <Footer/>
+        <Approach />
+        <Footer />
       </div>
     </main>
   </>);
